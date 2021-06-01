@@ -44,9 +44,48 @@ ________________________
 
 ## PangeaMasker Roadmap
 
+Is an automatic anonymisation toolkit that can mask big volumes of personal data, which make it suitable for GDPR compliance. It is based on neural Named Entity Recognition (NER).
+
+--
+
+## Based on Neural Network Models
+
+- WordEmbedding methods like Glove, Word2Vec and Flair Embeddings
+- Transition Based Ner
+    * Start with all empty stacks, all words on buffer, no entities
+    * Define actions that change the state
+    * Predict the sequence of actions
+
+--
+
+## ECO
+
+![ECO Anonymisation UI](img/eco-pangea-masker-trial.png)
+
+--
+
+![PECAT Human Tagging UI](img/pecat-anon-tagging.png)
+
 ---
 
-## Results
+## Experiments en Spanish
+
+Experiment settings
+- Datasets: Conll2003, 190 mil words
+- WordEmbedding: Glove
+- 
+
+--
+
+## Conll2003 + Glove
+
+--
+
+## Conll2003 + Glove + Human Feedback (HF)
+
+--
+
+## Conll2003 + HF + Refining
 
 ---
 
